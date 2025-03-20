@@ -67,6 +67,8 @@ Key components of a containerized environment:
 2. **Container Runtime** – The engine that runs and manages containers (e.g., Docker, containerd, Podman).
 3. **Container Orchestration** – Manages multiple containers in a production environment (e.g., Kubernetes).
 
+<br>
+
 # Installation Process
 Before diving into the actual installation process, you'll need to decide which type of installation is best suited for you. There are several options to choose from, each with its own benefits and drawbacks. Here's a comparison:
 
