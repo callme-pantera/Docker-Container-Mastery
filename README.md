@@ -67,3 +67,32 @@ Key components of a containerized environment:
 2. **Container Runtime** – The engine that runs and manages containers (e.g., Docker, containerd, Podman).
 3. **Container Orchestration** – Manages multiple containers in a production environment (e.g., Kubernetes).
 
+# Installation Process
+Before diving into the actual installation process, you'll need to decide which type of installation is best suited for you. There are several options to choose from, each with its own benefits and drawbacks. Here's a comparison:
+
+
+|   Option  |   Best For   |   Pros    |   Cons    |    Ideal Use Case  |
+|:----------|-------------:|----------:|----------:|-------------------:|
+|**Docker Desktop (Local Machine)**|Development, testing, and learning|Easy to set up, great for development, includes Docker Compose|   Resource-heavy, limited for production use|Developers working locally on applications|
+|**Docker on Ubuntu Server**|Small deployments and self-hosting|More control, efficient resource usage, scalable|Requires manual setup, needs security management|Self-hosting small production workloads|
+|**Cloud-Based Docker Services**|Production-scale deployments without maintenance|Highly scalable, low maintenance, built-in security and backups| Expensive, less control over the infrastructure|Enterprises deploying at scale with minimal infrastructure management|
+|**Lightweight Container OS**|High-performance, lightweight container hosting|Minimal OS overhead, optimized performance, enhanced security| Limited general-purpose use, some missing OS features|Organizations running large-scale containerized workloads|
+|**Docker in a Virtual Machine**|Testing, homelabs, and isolated environments|Isolated environment, flexible OS choices, great for testing|Higher resource usage due to virtualization overhead|Homelab users or businesses testing container environments|
+
+<br>
+
+My personal preference is either hosting it myself via an Ubuntu Server or using cloud services like AWS, Azure, etc. For the sake of this documentation, I will do my best to install and configure it in every possible way.
+
+## Docker Desktop Installation
+You can download the Docker Desktop software [here](https://www.docker.com/products/docker-hub/). Be sure to check the system requirements before installing.
+
+## Docker on Ubuntu Server
+
+
+## Cloud-Based Docker Services
+
+
+## Lightweight Container OS
+
+
+## Docker in a VM
