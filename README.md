@@ -92,7 +92,12 @@ Before diving into the actual installation process, you'll need to decide which 
 My personal preference is either hosting it myself via an Ubuntu Server or using cloud services like AWS, Azure, etc. For the sake of this documentation, I will do my best to install and configure it in every possible way.
 
 ## Docker Desktop Installation
-You can download the Docker Desktop software [here](https://www.docker.com/products/docker-hub/). Be sure to check the system requirements before installing.
+You can download the Docker Desktop software [here](https://www.docker.com/products/docker-hub/). Be sure to check the system requirements before installing. <br>
+Once the download is complete, make sure to log out of your laptop/PC so that Docker Desktop can start. Once you’re done, here’s how it should look:
+
+| Docker-Desktop Start Page |
+|:------------------------------------------------------------:|
+|![docker-desktop](assets/images/docker-desktop-start-page.png)|
 
 ## Docker on Ubuntu Server
 
