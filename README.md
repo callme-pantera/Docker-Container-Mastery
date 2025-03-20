@@ -29,6 +29,12 @@ By the time you finish studying this repository, you will hopefully have a compl
 
 <br>
 
+> [!NOTE]
+> For this documentation, I have used Windows as the operating system. I apologize, but I won’t be covering MacOS.
+
+
+<br>
+
 ## Quick Refresh: What Are Containers?
 Containers are a lightweight, portable, and efficient way to package and run applications. They provide a **consistent environment** across different computing platforms, eliminating the classic "it works on my machine" problem. Containers achieve this by bundling an application with all its dependencies, libraries, and configurations into a single unit. <br>
 
